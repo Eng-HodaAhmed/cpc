@@ -1,0 +1,30 @@
+<h5 class="text-center mb-5">تقرير شهر {{monthName}}</h5>
+<div class="report_border">
+    <div class="table_div table-responsive-md">
+        <table class="table table-striped table-hover" style="min-height:200px;">
+            <tbody>
+                <tr>
+                    <th>رصيد سابق</th>
+                    <td>{{previousBalance}}</td>
+                </tr>
+                <tr>
+                    <th>اجمالي الإيداعات</th>
+                    <td>{{totalDeposits}}</td>
+                </tr>
+                <tr>
+                    <th>إجمالي المشتريات</th>
+                    <td>{{totalPurchaces}}</td>
+                </tr>
+                <tr>
+                    <th>الرصيد الختامي</th>
+                    <td>{{totalBalance}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row justify-content-between ps-3 pe-3 align-items-center pb-3">
+        <button type="submit" class="btn btn-prim col-sm-6 mt-2" (click)="onSave()">اضافة كرصيد ختامي</button>
+        <button type="button" class="btn btn-second col-sm-4 mt-2" (click)="onBack()">خروج</button>
+
+    </div>
+</div>

@@ -1,0 +1,31 @@
+
+
+.home-form{
+    height: 60vh;
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 216, 213);
+}
+.btn{
+    height: 40px;
+}
+.btn-prim{
+    background-color:rgb(187, 222, 249);
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    transition:.5 all;
+}
+.btn-second{
+    background-color:rgb(223, 225, 227);
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    transition:.5 all; 
+}
+.btn-prim:hover{
+     background-color:rgb(155, 210, 252);
+}
+.btn-second:hover{
+    background-color:rgb(181, 181, 181);
+}

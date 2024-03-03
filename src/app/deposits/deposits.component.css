@@ -1,0 +1,28 @@
+
+h5{
+    color:white;
+}
+.add_btn{
+    border: 1px solid rgb(220, 126, 11);
+   border-radius: 3px;
+    color:rgb(220, 126, 11);
+    background-color: transparent;
+    height: 40px;
+}
+
+.add_btn:hover{
+    background-color: rgb(227, 128, 7);
+    color: #02162c;
+}
+.table_div{
+    
+    max-height:300px;
+    overflow-y: scroll;
+    
+}
+.border_form{
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid rgb(220, 126, 11);
+}

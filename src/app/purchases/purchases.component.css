@@ -1,0 +1,27 @@
+
+h5{
+    color:white;
+}
+.add_btn{
+    border: 1px solid rgb(220, 126, 11);
+   border-radius: 3px;
+    color:rgb(220, 126, 11);
+    background-color: transparent;
+    height: 40px;
+  
+    
+}
+
+.add_btn:hover{
+    background-color: rgb(212, 119, 4);
+    color: #02162c;
+}
+p{
+    font-size: 12px;
+}
+.border_form{
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid rgb(220, 126, 11);
+}

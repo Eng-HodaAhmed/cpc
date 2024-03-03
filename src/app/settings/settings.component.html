@@ -1,0 +1,23 @@
+<div class="homePage row">
+    <h5 class="text-center mb-4" style="color:  rgb(220, 126, 11);">سعر المواد البترولية</h5>
+    <form #f="ngForm" (ngSubmit)="onSubmit()" class="priceForm text-end col-md-8">
+        <div class="mb-3">
+            <label for="solarPrice" class="mb-2">سعر السولار</label>
+            <input type="text" name="solarPrice" [(ngModel)]="solarPrice"  class="form-control text-end">
+        </div>
+        <div class="mb-3">
+            <label for="petrol80Price" class="mb-2">سعر بنزين 80</label>
+            <input type="text" name="petrol80Price" [(ngModel)]="petrol80Price" class="form-control text-end">
+        </div>
+        <div class="mb-5">
+            <label for="petrol92Price" class="mb-2">سعر بنزين92</label>
+            <input type="text" name="petrol92Price" [(ngModel)]="petrol92Price" class="form-control text-end">
+        </div>
+        <div class="row justify-content-between p-3">
+            <button type="submit" class="btn btn-prim col-5" >حفظ</button> 
+            <button type="button"  class="btn btn-second col-5" (click)="onBack()">رجوع</button>
+             
+        </div>
+       
+    </form>
+</div>
